@@ -99,10 +99,6 @@ What do you notice about the resulting DFAs?
    - NFAs can "guess" the correct path using non-deterministic transitions.
    - The resulting DFA must account for all possible paths explicitly, which often leads to additional states.
 
-6. **Epsilon-Closure Handling (if extended in future work)**: 
-   - If the NFA had ε (epsilon) transitions, they would need to be accounted for in the subset construction.
-   - The current NFAs do not have epsilon transitions, so this is not observed in these results.
-
 Conclusion:
 - The subset construction method correctly converts NFAs into equivalent DFAs.
 - The number of states in the DFA is only as large as necessary (reachable states only).
