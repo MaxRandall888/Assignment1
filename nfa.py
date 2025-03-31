@@ -98,9 +98,4 @@ What do you notice about the resulting DFAs?
 5. **Increased Determinism at the Cost of More States**: 
    - NFAs can "guess" the correct path using non-deterministic transitions.
    - The resulting DFA must account for all possible paths explicitly, which often leads to additional states.
-
-Conclusion:
-- The subset construction method correctly converts NFAs into equivalent DFAs.
-- The number of states in the DFA is only as large as necessary (reachable states only).
-- The deterministic structure of DFAs makes them more suitable for certain applications, despite their potentially larger size.
 """
